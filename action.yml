@@ -2,6 +2,13 @@ name: 'Hello World'
 author: 'Sean Conroy'
 description: 'Custom GH action with TypeScript'
 
+inputs:
+  name:
+    description: 'Name to greet'
+    required: false
+    default: 'Sean G. Conroy'
+
+
 runs:
   using: 'node16'
   main: 'dist/index.js'
