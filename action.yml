@@ -1,0 +1,7 @@
+name: 'Hello World'
+author: 'Sean Conroy'
+description: 'Custom GH action with TypeScript'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
