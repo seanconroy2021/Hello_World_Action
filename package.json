@@ -1,0 +1,23 @@
+{
+  "name": "hello_world_action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+     "build": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanconroy2021/Hello_World_Action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanconroy2021/Hello_World_Action/issues"
+  },
+  "homepage": "https://github.com/seanconroy2021/Hello_World_Action#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.1.6"
+  }
+}
